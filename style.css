@@ -1,0 +1,289 @@
+*{
+  font-family: "Poppins";
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding: 0;
+  top: 0;
+  scroll-behavior: smooth;
+}
+#navbar img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  margin: 4px 25px;
+}
+.sec1{
+  background-color: #1f2937;
+  width: 100%;
+}
+#navbar{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  padding: 12px;
+  justify-content: space-between;
+}
+.nav-list a{
+  text-decoration: none;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+.nav-list li{
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  margin: 0 25px;
+}
+#btn{
+ text-align: right; 
+ padding: 0 25px;
+ width: 100%;
+}
+.s-btn{
+  padding: 8px;
+  border-radius: 12px;
+  border: 2px solid white;
+  background: none;
+  color: white;
+}
+.s-btn:hover{
+  background: white;
+  color: #1f2937;
+  cursor: pointer;
+}
+#search-in{
+  width: 98%;
+  padding: 12px 12px 12px 12px;
+  outline: none;
+  border: 0;
+}
+#Home{
+  margin: 0 auto;
+  padding: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  background-image: url(https://media.istockphoto.com/id/1201405699/photo/programming-code-abstract-technology-background-of-software-developer-and-computer-script.jpg?s=612x612&w=0&k=20&c=LykdW5Ui0hqJtw6Y4EzIcJV1Yw-Eb5pzzpi1VgBftbw=);
+  }
+#sec2 h2{
+  font-size: 32px;
+  color: #fff;
+}
+#sec2 p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+#sec2 button{
+  padding: 12px;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  color: #fff;
+  background: none;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+#sec2 button:hover{
+  background: #fff;
+  color: black;
+  cursor: pointer;
+}
+#home-img img{
+  margin: 0 auto;
+  padding: 0 25px;
+  border: 0;
+  border-radius: 12px;
+}
+h1{
+  text-align: left;
+  width: 100%;
+  font-size: 32px;
+}
+.about-pr span{
+  font-size: 12px;
+  font-weight: 300;
+}
+.about-pr{
+  font-size: 14px;
+  font-weight: 500;
+}
+.about-ct{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 38px;
+}
+#half1 img{
+  padding: 0;
+  margin: 0;
+  border-radius: 12px;
+  width: 350px;
+  border: 0;
+}
+#half2{
+  padding: 0 24px;
+}
+.about-ct{
+  margin-top: 30px;
+  align-items: center;
+  /*padding: 20px;*/
+}
+.box{
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 12px;
+  width: 200px;
+  margin: 10px;
+  align-items: center;
+  margin-top: 30px;
+}
+.box img{
+  height: 250px;
+  width: 200px;
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+.box h3{
+  font-size: 18px;
+  margin: 0;
+  
+}
+.box .web-btn{
+  background: #fff;
+  color: black;
+  padding: 4px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  top: 0;
+}
+.box .web-btn:hover{
+  background: black;
+  color: #fff;
+  cursor: pointer;
+}
+#services h2{
+  text-align: center;
+  font-size: 32px;
+}
+.Templates{
+  display: flex;
+}
+.box-re img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 150px;
+}
+.box-re{
+  width: 250px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 12px;
+  margin-top: 0;
+}
+h1{
+  text-align: center;
+}
+.reviews{
+  display: flex;
+  justify-content: center;
+}
+.btns img{
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  border: 0;
+  border-radius: 8px;
+}
+.cntct1{
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  margin-top: 0;
+}
+#contact p{
+  margin: 10px;
+  padding: 10px;
+}
+#contact{
+  text-align: center;
+}
+.foot-txt{
+  text-align: center;
+  margin-bottom: 8px;
+}
+.foot-ct{
+  background-color: #1f2937;
+  margin: 0;
+  color: #fff;
+}
+
+@media (max-width: 576px){
+  .sec1{
+    display: flex;
+    flex-direction: column;
+  }
+  #navbar{
+    display: flex;
+    flex-direction: column;
+  }
+  #btn {
+    text-align: center;
+    margin-bottom: 4px;
+    padding: 0;
+  }
+  ul{
+    margin: 8px;
+    padding: 4px;
+    justify-content: space-evenly;
+  }
+  .nav-list li{
+    padding: 4px;
+  }
+  #search-in{
+    padding: 8px;
+  }
+  #Home{
+    display: flex;
+    flex-direction: column;
+  }
+  #home-img img{
+    display: none;
+  }
+  .about-ct{
+    display: flex;
+    flex-direction: column;
+  }
+  #half1 img{
+    display: none;
+  }
+  .Templates{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .box{
+    margin: 8px 12px 8px 22px;
+  }
+  .reviews{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
